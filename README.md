@@ -25,4 +25,11 @@ The Cuckoo class implements the following steps:
 ## Usage:
 To use the code, the user can instantiate an object of the Cuckoo class with the desired values for the parameters. The `plot_graph()` function can then be called to plot the test field. Then the main function is called through a cuckoo object to perform the **Cuckoo Search Algorithm** and obtain the estimated coordinates of the unknown nodes. The algorithm iterates through each node and attempts to localize it by creating cuckoo nests, laying eggs, and performing Lévy flight. The function returns a list of estimated coordinates of the unknown nodes and a list of iteration-wise optimum fitness values.
 
+## Results:
+**Simulation Space Setup**  
+![alt text](https://github.com/DevMindNit/Wireless-Sensor-Networks-ECS-Algorithm/blob/main/Simulation%20Space%20Setup.png)
+
+**All Nodes Localized**  
+![alt text](https://github.com/DevMindNit/Wireless-Sensor-Networks-ECS-Algorithm/blob/main/All%20Nodes%20Localized.png)
+
 ---
